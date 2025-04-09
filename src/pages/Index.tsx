@@ -75,7 +75,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
+      {/* Hero Section with Camera Animation */}
       <Hero />
 
       {/* Services Section */}
