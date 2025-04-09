@@ -14,7 +14,7 @@ import {
   Settings,
   Building2,
   Package,
-  Drone,
+  PlaneTakeoff,
   Instagram,
   Palette
 } from "lucide-react";
@@ -68,7 +68,7 @@ const initialPortfolioItems = [
 const categories = [
   { id: "gayrimenkul", name: "Gayrimenkul", icon: <Building2 className="h-5 w-5" /> },
   { id: "urun", name: "Ürün", icon: <Package className="h-5 w-5" /> },
-  { id: "drone", name: "Drone", icon: <Drone className="h-5 w-5" /> },
+  { id: "drone", name: "Drone", icon: <PlaneTakeoff className="h-5 w-5" /> },
   { id: "sosyal-medya", name: "Sosyal Medya", icon: <Instagram className="h-5 w-5" /> },
   { id: "grafik-tasarim", name: "Grafik Tasarım", icon: <Palette className="h-5 w-5" /> },
 ];

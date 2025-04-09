@@ -7,7 +7,7 @@ import PortfolioItem from '@/components/PortfolioItem';
 import FooterCTA from '@/components/FooterCTA';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { Camera, Building2, Package, Drone, Instagram, Palette, ArrowRight } from 'lucide-react';
+import { Camera, Building2, Package, PlaneTakeoff, Instagram, Palette, ArrowRight } from 'lucide-react';
 
 const Index = () => {
   // Scroll to top on page load
@@ -32,7 +32,7 @@ const Index = () => {
     {
       title: 'Drone Çekimi',
       description: 'Yükseklerden nefes kesen manzaralar ve etkileyici havadan görüntüler ile farklı bir perspektif sunun.',
-      icon: <Drone className="h-10 w-10" />,
+      icon: <PlaneTakeoff className="h-10 w-10" />,
       bgImage: 'https://images.unsplash.com/photo-1508444845599-5c89863b1c44',
     },
     {
